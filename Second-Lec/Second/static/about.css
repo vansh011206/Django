@@ -1,0 +1,73 @@
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background: #fbfaf8;
+    color: #232323;
+    line-height: 1.6;
+  }
+
+  header {
+    padding: 80px 24px 60px;
+    text-align: center;
+    border-bottom: 1px solid #e5e2dc;
+  }
+
+  header h1 {
+    font-family: 'Fraunces', serif;
+    font-size: clamp(2.2rem, 6vw, 3.4rem);
+    font-weight: 600;
+    letter-spacing: -0.02em;
+  }
+
+  header p {
+    margin-top: 12px;
+    color: #6b6b6b;
+    font-size: 1.05rem;
+  }
+
+  section {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 60px 24px;
+  }
+
+  section h2 {
+    font-family: 'Fraunces', serif;
+    font-size: 1.6rem;
+    margin-bottom: 16px;
+    color: #1a1a1a;
+  }
+
+  section p {
+    color: #444;
+    font-size: 1.02rem;
+  }
+
+  #contact {
+    border-top: 1px solid #e5e2dc;
+  }
+
+  .info-line {
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: #333;
+  }
+
+  .info-line span.label {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #999;
+  }
+
+  footer {
+    text-align: center;
+    padding: 30px 24px;
+    color: #999;
+    font-size: 0.85rem;
+  }

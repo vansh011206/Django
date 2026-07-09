@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mera Page</title>
+<link rel="stylesheet" href="{% static 'about.css' %}">
+</head>
+<body>
+
+  <header>
+    <h1>Mera Naam</h1>
+    <p>Ek chhota sa introduction yahan aa sakta hai</p>
+  </header>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>
+      Yahan apne baare mein likho — kaun ho, kya karte ho, kya pasand hai.
+      Ye section simple rakha gaya hai taaki tum baad mein content easily badal sako.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Mujhse yahan sampark karein:</p>
+    <div class="info-line">
+      <div><span class="label">Email</span><br>example@email.com</div>
+      <div><span class="label">Phone</span><br>+91 00000 00000</div>
+      <div><span class="label">Location</span><br>Ghaziabad, India</div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2026 Mera Naam
+  </footer>
+
+</body>
+</html>
