@@ -2,5 +2,6 @@
 from django.urls import path
 from . import views
 urlpatterns = [
-    path("",views.firstapp,name='first_app')
+    path("",views.firstapp,name='first_app'),
+    path("second",views.secondhtml,name='second_html')
 ]

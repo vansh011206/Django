@@ -12,7 +12,18 @@
     <link rel="stylesheet" href="{% static 'style.css' %}">
 </head>
 <body>
-    <nav>This is our navbar</nav>
+    <nav>
+        <h2>MyWebsite</h2>
+
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+        <button>Login</button>
+    </nav>
     {% block content %} 
     {% endblock %}
 </body>
