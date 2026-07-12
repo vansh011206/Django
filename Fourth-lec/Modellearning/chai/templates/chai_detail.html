@@ -1,0 +1,15 @@
+{% extends 'layout.html' %}
+
+
+{% block title %}
+  About Page
+{% endblock %}
+
+ 
+ {% block content %}
+  <h1>Chai Detail Page</h1>
+  <h2>{{chai.name}}</h2>
+  <p>{{chai.description}}</p>
+  <img src="{{chai.image.url}} alt="">
+  {% endblock content %}
+  

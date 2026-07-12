@@ -1,0 +1,23 @@
+{% extends 'layout.html' %}
+
+
+{% block title %}
+  Home Page
+{% endblock %}
+
+{% block content %}``
+
+<!-- {% for name in pagename %} -->
+    
+<!-- {% endfor %} -->
+
+  <a href="{% url 'aboutpage' %}"
+       class="px-6 py-3 bg-indigo-600 text-white font-semibold rounded-lg shadow-md hover:bg-indigo-700 hover:shadow-lg transition duration-300">
+        About Page
+    </a>
+
+    <a href="{% url 'admin:index' %}"
+       class="px-6 py-3 bg-emerald-600 text-white font-semibold rounded-lg shadow-md hover:bg-emerald-700 hover:shadow-lg transition duration-300">
+        Admin Panel
+    </a>
+{% endblock %}
