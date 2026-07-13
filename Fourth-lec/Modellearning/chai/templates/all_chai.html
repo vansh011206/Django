@@ -12,7 +12,9 @@ Chai Page
   <div class="bg-amber-600 p-5 w-25 rounded">
     <img class="rounded-2xl w-80 h-80" src="{{chai.image.url}}" alt="">
     <h2 class="text-3xl font-bold">{{chai.name}}</h2>
+    <p><strong>Price:</strong> ₹{{ chai.price }}</p>
     <a href="{% url 'chai_detail' chai.id %}">
+      
       <button
       type="button"
       class="class=px-4 py-2 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition duration-30"
